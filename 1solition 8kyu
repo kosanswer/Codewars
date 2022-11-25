@@ -1,0 +1,9 @@
+function helloWorld() {
+  // creates variable called str to str that equals Hello World
+  var str = "Hello World!";
+  // prints the variable str to the console
+  console.log(str);
+};
+
+// technically you would type in helloWorld down here to 
+// run the function
