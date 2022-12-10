@@ -4,6 +4,3 @@ function helloWorld() {
   // prints the variable str to the console
   console.log(str);
 };
-
-// technically you would type in helloWorld down here to 
-// run the function
