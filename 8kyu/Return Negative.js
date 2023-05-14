@@ -5,3 +5,7 @@ function makeNegative(num) {
     return -Math.abs(num);
   }
 }
+//or
+function makeNegative(num) {
+  return -Math.abs(num);
+}
