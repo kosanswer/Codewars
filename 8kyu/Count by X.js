@@ -9,3 +9,13 @@ function countBy(x, n) {
   }
   return result;
 }
+// or
+function countBy(x, n) {
+  let z = [];
+  for (let i = 1; i <= n; i++) {
+    z.push(x * i);
+  }
+  return z;
+}
+// or 
+const countBy = (x, n) => Array.from({length: n}, (v, k) => (k + 1) * x)
