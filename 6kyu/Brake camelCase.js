@@ -14,3 +14,7 @@ function solution(string) {
     }
         return str.join('')
 }
+////////////////////////////////////////////
+function solution(string) {
+  return(string.replace(/([A-Z])/g, ' $1'));
+}
