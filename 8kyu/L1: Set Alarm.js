@@ -17,3 +17,5 @@ return true;
 return false;
 }
 }
+/////////////////////////////////////////
+const setAlarm = (employed, vacation) => employed && !vacation;
