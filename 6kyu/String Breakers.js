@@ -18,6 +18,7 @@ g
 
 Return value as a string: 'Thisi'+'\n'+'sanex'+'\n'+'ample'+'\n'+'strin'+'\n'+'g'
 */
+///////////////////////////////////
 function stringBreakers(n, string){
   string=string.replace(/\s/g,'')
   let arr = []
@@ -25,4 +26,8 @@ function stringBreakers(n, string){
     arr.push(string.slice(i,i+n))
   }
   return arr.join`\n`
+}
+/////////////////////////////////////
+function stringBreakers(n, s){
+  return s.replace(/\s/g,'').replace(new RegExp('.{'+n+'}','g'),'$&\n').trim()
 }
