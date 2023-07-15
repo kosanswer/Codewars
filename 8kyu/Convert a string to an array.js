@@ -9,6 +9,8 @@ function stringToArray(string) {
   let wordsArray = string.split(' ');
   return wordsArray;
 }
+////or
+const stringToArray = string => string.split(' ');
 ////////////////////////////////////////
 /*
 В JavaScript метод `split()` используется для разделения строки на массив подстрок на основе заданного разделителя.
