@@ -16,3 +16,5 @@ For example:
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
+//////////////////////////////////////////////////////////////////
+const goals = (a,b,c) => a + b + c;
