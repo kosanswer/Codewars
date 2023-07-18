@@ -33,3 +33,11 @@ function sum(numbers) {
 
   return sum;
 }
+///////////////////////////////////////////////
+function sum(numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+}
+//////////////////////////////////////////////
+function sum(numbers) {
+  return numbers.reduce((acc, curr) => acc + curr, 0);
+}
