@@ -71,3 +71,7 @@ function expressionMatter(a, b, c) {
   // Return the maximum result
   return Math.max(...expressions);
 }
+//////////////////////////////////////
+function expressionMatter(a, b, c) {
+  return Math.max(a+b+c, a*b*c, (a+b)*c, a*(b+c));
+}
