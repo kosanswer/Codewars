@@ -1,0 +1,24 @@
+/*
+Don Drumphet lives in a nice neighborhood, but one of his neighbors has started to let his house go. 
+Don Drumphet wants to build a wall between his house and his neighbor’s, and is trying to get the neighborhood association to pay for it.
+He begins to solicit his neighbors to petition to get the association to build the wall. 
+Unfortunately for Don Drumphet, he cannot read very well, has a very limited attention span, and can only remember two letters from each of his neighbors’ names. 
+As he collects signatures, he insists that his neighbors keep truncating their names until two letters remain, and he can finally read them.
+
+Your code will show Full name of the neighbor and the truncated version of the name as an array. 
+If the number of the characters in name is less than or equal to two, it will return an array containing only the name as is"
+*/
+const whoIsPaying = (name) => {
+  if (name.length <= 2) {
+    return [name];
+  } else {
+    const truncatedName = name.slice(0, 2);
+    return [name, truncatedName];
+  }
+};
+/*
+Функция whoIsPaying принимает имя соседа в качестве аргумента и возвращает массив, содержащий полное имя соседа и его усеченную версию. 
+Если количество символов в имени меньше или равно двум, функция вернет массив, содержащий только полное имя без изменений.
+В функции whoIsPaying мы проверяем длину имени. Если длина имени меньше или равна двум символам, мы возвращаем массив, содержащий только полное имя. 
+В противном случае мы усекаем имя до двух символов с помощью метода slice и возвращаем массив, содержащий полное имя и усеченную версию имени.
+*/
