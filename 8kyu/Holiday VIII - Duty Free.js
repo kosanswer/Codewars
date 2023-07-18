@@ -17,3 +17,7 @@ const savedMoney = normPrice * discount / 100;
 const bottlesNeeded = Math.floor(hol / savedMoney);
 return bottlesNeeded;
 }
+/////////////////////////////////////////////////////
+function dutyFree(normPrice, discount, hol){
+  return(Math.floor(hol / normPrice / discount * 100))
+}
