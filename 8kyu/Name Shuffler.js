@@ -9,3 +9,7 @@ function nameShuffler(str) {
   const names = str.split(" ");
   return `${names[1]} ${names[0]}`;
 }
+////////////////////////////////////
+function nameSuffle(str){
+  return str.split(' ').reverse().join(' ')
+}
