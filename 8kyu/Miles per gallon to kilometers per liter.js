@@ -17,3 +17,7 @@ function converter(mpg) {
   const kmPl = mpg * kmPm / lPg;
   return Number(kmPl.toFixed(2));
 }
+///////////////////////////////////
+function converter (mpg) {
+  return +(mpg * .354006043538).toFixed(2)
+}
