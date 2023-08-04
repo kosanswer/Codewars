@@ -7,4 +7,4 @@ Examples:
 14: -14
 -34: 34
 */
-const opposite = number => {return -number}
+const opposite = number => -number;
